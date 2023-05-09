@@ -23,4 +23,5 @@ All of these files were created by first generating the synthetic data from text
 - `train_t5_segmenter.ipynb` : The training and validation script, we used SimpleT5 a wrapper over pytorch lightning.
 
 ## Model Weights
-These are in the outputs folder, I will upload them to huggingface to use in the future.
+These are too large to store in this repo.
+[You can access the model weights here](https://huggingface.co/kswanjitsu/medical_note_segmenter)
