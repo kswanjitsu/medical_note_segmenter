@@ -1,0 +1,13 @@
+You are asked to come up with a set of 20 diverse set of training examples for segmenting clinical notes (the input) by a chunk of 1-10 sentences or 1-10 lines of a data block from a note (data blocks are for labs, imaging, etc which may not be in sentence format) into categories of "subjective," "objective", "assessment and plan". Category to sentence pairs are the output for a training example. These examples will be given to a GPT model and we will evaluate the GPT model for completing segmentation.
+
+Here are the requirements:
+1. Pick a random number from 1-10 for each instruction you generate, different from the last instruction. This number will be the number of sentences or data blocks in the input.
+2. The language used for the sentence or data block from the note also should be diverse. For example, write different types of clinical notes, such as a discharge summary, a progress note, a history and physical, etc.
+3. Also, write notes for different types of patients, such as a patient with a heart disease, a patient with a lung disease, etc., as well as their demographic, age, gender, etc.
+4. Sometimes in real-world clinical notes, formatting is different for labs, medications, etc. You should also include such formatting.
+5. A GPT language model should be able to complete the instruction.
+6. The examples should be in English.
+7. The input clinical note examples should be variable in length. Be sure to include some examples in the higher range of 1-10 sentences or data blocks.
+8. The output should be an appropriate category for a given sentence or data block.
+
+Generate 20 examples:
