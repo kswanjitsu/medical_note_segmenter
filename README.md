@@ -25,3 +25,7 @@ All of these files were created by first generating the synthetic data from text
 ## Model Weights
 These are too large to store in this repo.
 [You can access the model weights here](https://huggingface.co/kswanjitsu/medical_note_segmenter)
+
+## Results
+On a hold out test test of 80+ examples not seen during training or for evaluation we achieve 100% accuracy, recall and precision.
+You can look at these results in the jupyter notebook file towards the end.
